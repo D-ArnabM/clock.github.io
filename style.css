@@ -1,0 +1,36 @@
+:root{
+    --primary-color:rgb(252, 247, 237);
+    --secondary-color:black;
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:rgb(252, 247, 237);
+}
+body{
+    height: 100%;
+    background-image: url(day.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    margin:5%;
+    text-align:center;
+    font-family:fantasy;
+    font-size: 8vw;
+    color: var(--secondary-color);
+}
+h2{
+    margin:5%;
+    text-align:center;
+    font-family:fantasy;
+    font-size: 5vw;
+    color: var(--secondary-color);
+}
+#icon{
+    width:10vw;
+    cursor: pointer;
+    display: block;
+    margin:auto;
+}
